@@ -2,7 +2,6 @@ import {
   Container,
   SearchForm,
   Section,
-  Heading,
   Loader,
   CountryList,
 } from 'components';

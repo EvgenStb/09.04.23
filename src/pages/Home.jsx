@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { getCountries } from '../service/country-service';
-import { Container, CountryList, Heading, Loader, Section } from 'components';
+import { Container, CountryList, Loader, Section } from 'components';
 
 export const Home = () => {
   const [isLoading, setIsLoading] = useState(false);
